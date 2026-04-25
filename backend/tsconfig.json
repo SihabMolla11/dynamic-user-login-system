@@ -14,17 +14,23 @@
     // "resolveJsonModule": true,
 
     /* Strict Type Checking */
-    "strict": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+
 
     /* Source Maps */
     "sourceMap": true,
 
     /* Node compatibility */
-    "types": ["node"]
+    "types": ["node"],
+
+
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
   },
 
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
 }
